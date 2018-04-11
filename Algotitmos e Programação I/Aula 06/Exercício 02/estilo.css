@@ -1,0 +1,22 @@
+
+img {
+    margin-left: 30%;
+    width: 40%;
+    height: 40%;
+}
+
+.caixa_principal{
+    text-align: center;
+}
+
+.caixa_resposta img {
+    display: inline-block;
+    float: left;
+    width: 10%;
+    height: 10%;
+}
+.caixa_resposta {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}

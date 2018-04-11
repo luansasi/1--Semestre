@@ -1,0 +1,25 @@
+
+img {
+    margin-left: 30%;
+    height: 40%;
+    width: 40%;
+}
+
+#quadro_principal {
+    margin-left: 30%;
+    height: 40%;
+    width: 40%;
+
+}
+
+#quadro_comandos {
+    margin-left: 22%;
+}
+
+#quadro_resposta {
+    margin-left: 30%;
+    height: 40%;
+    width: 40%;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo01.css">
+    <title>Veterinária Avenida</title>
+</head>
+<body>  
+
+    <img src="vt_avenida.png" alt="Logo veterinaria">
+    
+    <fieldset id="quadro_principal">
+        <div id="quadro_comandos">
+            <h1>Veterinária Avenida</h1>
+            <p>Peso da Ração(Kg): 
+                <input type="text" id="inPeso">
+            </p>
+            <p>Consumo Diário(gr):
+                <input type="text" id="inConsumo">
+            </p>
+            <input type="button" value="Ver Duração" id="btMostrar">
+        </div>
+    </fieldset>
+    
+    <fieldset disabled="disabled" id="quadro_resposta" style="display: none;">
+        <h3 id="outResposta" ></h3>
+        <h3 id="outResposta2"></h3>
+    </fieldset>
+
+    <script src="modelo01.js"></script>
+</body>
+</html>

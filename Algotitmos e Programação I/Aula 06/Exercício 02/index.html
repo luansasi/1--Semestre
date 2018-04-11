@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Banco Avenida</title>
+</head>
+<body>
+    <img src="banco.jpg" alt="Imagem do Banco">
+    <div class="caixa_principal">
+        <h1>Terminal de Saque Eletrônico</h1>
+        <p>Saque R$:
+            <input type="text" id="inSaque">
+        </p>
+        <input type="button" value="Sacar" id="btMostrar">
+
+    </div>
+
+    <div class="caixa_resposta" style="display: none;">
+        <p id="outResposta"></p>
+            <img src="nota100.jpg" alt="Nota de 100" id="img01" >
+        
+        <p id="outResposta02"></p>
+              <img src="nota50.jpg" alt="Nota de 50" id="img02" >
+
+        <p id="outResposta03"></p>
+              <img src="nota10.jpg" alt="Nota de 10" id="img03" >
+    </div>
+
+    <script src="modelo.js"></script>
+
+</body>
+</html>
